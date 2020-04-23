@@ -14,7 +14,7 @@ def save_data():
 	now = datetime.datetime.now()
 	print("The table has been updated at:",now)
 
-schedule.every().day.at("11:34").do(save_data)
+schedule.every().day.at("09:00").do(save_data)
 
 
 while True:
